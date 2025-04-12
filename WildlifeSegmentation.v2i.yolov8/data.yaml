@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 65
+names: ['0', 'badger', 'bat', 'bear', 'bison', 'butterfly', 'cat', 'chimpanzee', 'cow', 'coyote', 'crow', 'deer', 'dog', 'donkey', 'dragonfly', 'duck', 'eagle', 'elephant', 'flamingo', 'fox', 'goat', 'hamster', 'hare', 'hedgehog', 'hippopotamus', 'horse', 'hummingbird', 'kangaroo', 'koala', 'ladybug', 'leopard', 'lion', 'lizard', 'otter', 'owl', 'panda', 'parrot', 'penguin', 'pig', 'pigeon', 'porcupine', 'possum', 'raccoon', 'rat', 'reindeer', 'rhinoceros', 'sandpiper', 'seahorse', 'seal', 'shark', 'sheep', 'snake', 'sparrow', 'squid', 'squirrel', 'starfish', 'swan', 'tiger', 'turkey', 'turtle', 'whale', 'wolf', 'wombats', 'woodpecker', 'zebra']
+
+roboflow:
+  workspace: wildlife-o1yui
+  project: wildlifesegmentation
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wildlife-o1yui/wildlifesegmentation/dataset/2
